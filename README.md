@@ -18,3 +18,9 @@ Create a simple but fully functional application that tests users' knowledge of 
 
 ## Details
 Using the [Art Institute of Chicago API](https://api.artic.edu/docs/#quick-start), provide 10 questions to the user that tests his or her ability to identify the artist that created a work of art from amongst 4 different pieces. The user will respond to a question similar to _Select the work created by Vincent Van Gogh_.
+
+## Branching Strategy
+* All work must be done on a feature branch
+* No direct pushes to `main`
+* All commits to `main` must be done via pull request
+* Approving one's own pull request is not allowed
