@@ -17,4 +17,4 @@ Create a simple but fully functional application that tests users' knowledge of 
 * ability to reset the game at any time
 
 ## Details
-Using the [Art Institute of Chicago API](https://api.artic.edu/docs/#quick-start), provide 10 questions to the user that tests his or her ability to identify the artist that created a work of art from amongst 4 different pieces. The user will respond to a question similar to __Select the work created by Vincent Van Gogh__.
+Using the [Art Institute of Chicago API](https://api.artic.edu/docs/#quick-start), provide 10 questions to the user that tests his or her ability to identify the artist that created a work of art from amongst 4 different pieces. The user will respond to a question similar to _Select the work created by Vincent Van Gogh_.
