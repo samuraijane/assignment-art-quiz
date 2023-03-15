@@ -1,1 +1,1 @@
-// JavaSript code here with a change
+// JS code here with a change
