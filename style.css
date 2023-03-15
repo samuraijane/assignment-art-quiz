@@ -1,1 +1,31 @@
 /* CSS code here */
+
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+footer {
+    background: #42A5F5;
+    color: white;
+    height: 50px;
+  }
