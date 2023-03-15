@@ -3,7 +3,7 @@ const btn = document.getElementById('btn');
 
 const getImgInfoFunc = async () => {
   //fetch request function 
-  const response = await fetch('https://api.artic.edu/api/v1/artworks/27992?fields=id,title,image_id');
+  const response = await fetch();
   //converting into json
   const data = await response.json();
   //gathering iiif http link
@@ -27,8 +27,23 @@ const buildImgUrlFunc = async () => {
   body.append(img);
 }
 
+function getApiUrl() {
+  const apiUrl = [];
+  for (let i = 0; i <= 3; i++) {
+    let dataUrl = `https://api.artic.edu/api/v1/artworks?page=${i}`;
+    apiUrl.push(dataUrl);
+  }
+  console.log(apiUrl);
+  return apiUrl;
+}
 
+const pickApiUrl = () => {
+  const apiUrl = getApiUrl();
+  
+}
 //to total the number of points create a final string interp saying take sum of total points and add a zero to it (e.g. `your score is ${sum}0`)
 
-btn.addEventListener('click', buildImgUrlFunc);
+btn.addEventListener('click', getApiUrl);
 // const iiif = data.config.iiif_url
+
+// "https://api.artic.edu/api/v1/artworks?page=1&page=100"
