@@ -39,7 +39,10 @@ function getApiUrl() {
 
 const pickApiUrl = () => {
   const apiUrl = getApiUrl();
-  
+  for (let i = 0; i <= apiUrl.length; i++){
+    
+  }
+
 }
 //to total the number of points create a final string interp saying take sum of total points and add a zero to it (e.g. `your score is ${sum}0`)
 
