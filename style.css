@@ -168,6 +168,7 @@ a {
 @media screen and (min-width: 992px) {
     .random-container {
         flex-direction: row;
+        padding: 5rem 24rem ;
     }
     .artist-container {
         flex-grow: 1;
